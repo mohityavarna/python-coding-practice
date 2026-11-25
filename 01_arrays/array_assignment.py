@@ -2,7 +2,7 @@
 arr1 = [10, 20, 30, 40, 50]
 arr2 = [1, 2, 3]
 arr3 = []
-for i in range(len(min(arr1, arr2))):
+for i in range(min(len(arr1), len(arr2))):
     temp = arr1[i]+arr2[i]
     arr3.append(temp)
 print(arr3)
